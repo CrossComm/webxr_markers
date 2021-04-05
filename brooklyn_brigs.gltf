@@ -1,0 +1,250 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 158,
+            "type": "VEC3",
+            "max": [
+                696.972412109375,
+                -5.790877342224121,
+                597.8271484375
+            ],
+            "min": [
+                -756.6806640625,
+                -6.095727443695068,
+                -605.95751953125
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 936,
+            "type": "SCALAR",
+            "max": [
+                157
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2374,
+            "type": "VEC3",
+            "max": [
+                813.0509643554688,
+                -5.181537628173828,
+                752.2540893554688
+            ],
+            "min": [
+                -813.0508422851563,
+                -6.0957818031311039,
+                -752.2539672851563
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 15168,
+            "type": "SCALAR",
+            "max": [
+                2373
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 25372,
+            "type": "VEC3",
+            "max": [
+                667.8094482421875,
+                6.096685409545898,
+                578.2242431640625
+            ],
+            "min": [
+                -719.7230834960938,
+                -6.095710277557373,
+                -597.464111328125
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 131622,
+            "type": "SCALAR",
+            "max": [
+                25371
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 925752
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1896,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1896,
+            "byteLength": 3744,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5640,
+            "byteLength": 28488,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 34128,
+            "byteLength": 60672,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 94800,
+            "byteLength": 304464,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 399264,
+            "byteLength": 526488,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "CityEngineMaterial_1_mat",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "CityEngineMaterial_2_mat",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.30588236451148989,
+                    0.30588236451148989,
+                    0.30588236451148989,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "CityEngineMaterial_mat",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "mesh_CityEngineMaterial",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 1,
+                    "attributes": {
+                        "POSITION": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "mesh_CityEngineMaterial_1",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 2
+                    }
+                }
+            ]
+        },
+        {
+            "name": "mesh_CityEngineMaterial_2",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 2,
+                    "indices": 5,
+                    "attributes": {
+                        "POSITION": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "name": "CityEngineMaterial_1",
+            "mesh": 0
+        },
+        {
+            "name": "CityEngineMaterial_2",
+            "mesh": 1
+        },
+        {
+            "name": "CityEngineMaterial",
+            "mesh": 2
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
