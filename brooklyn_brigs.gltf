@@ -97,7 +97,8 @@
     ],
     "buffers": [
         {
-            "byteLength": 925752
+            "byteLength": 925752,
+            "uri": "result.bin"
         }
     ],
     "bufferViews": [
